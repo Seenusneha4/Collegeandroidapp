@@ -1,0 +1,36 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/student_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="ADMISSION NUMBER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/adno"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@color/button_color"
+        android:layout_margin="10dp"
+        android:text="SEARCH"
+        android:textSize="20dp"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backtodash"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="BACK TO DASHBOARD"
+        android:background="@color/button_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

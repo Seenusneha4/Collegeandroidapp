@@ -1,0 +1,34 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/student_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_margin="10dp"
+        android:text="FACULTY NAME"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/facultyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/search"
+        android:textSize="20dp"
+        android:text="SEARCH"
+        android:background="@color/button_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/backtodash"
+        android:text="BACK TO DASH"
+        android:textSize="20dp"
+        android:background="@color/button_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
